@@ -6,12 +6,17 @@ A key must be searched for, using the interpolation search algorithm, in a rando
    
      1. Store the leftmost and rightmost index of the array
      
-     2. Calculate the expected index of the key value, assuming the array values                increase linearly
+     2. Calculate the expected index of the key value, assuming the array values                
+        increase linearly
      
-     3. If the element at the calculated index is equal to the key then store ture for          found, the index of target value, and the number of divisions
+     3. If the element at the calculated index is equal to the key then store ture for        
+        found, the index of target value, and the number of divisions
      
-     4. If the element at the calculated index is not equal to the key, then if the key         is greater, set the leftmost index to one plus the calculated index
+     4. If the element at the calculated index is not equal to the key, then if the key   
+        is greater, set the leftmost index to one plus the calculated index
         
-     5. If the element at the calculated index is not equal to the key, then if the key         is less, set the rightmost index to the calculated index minus one
+     5. If the element at the calculated index is not equal to the key, then if the key         
+        is less, set the rightmost index to the calculated index minus one
      
-     6. When the leftmost index is greater than the rightmost index, stop searching the         array
+     6. When the leftmost index is greater than the rightmost index, stop searching the        
+        array
