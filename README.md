@@ -13,4 +13,4 @@ A key must be searched for, using the interpolation search algorithm, in a rando
         
      5. If the element at the calculated index is not equal to the key, then if the key         is less, set the rightmost index to the calculated index minus one
      
-     5. When the leftmost index is greater than the rightmost index, stop searching the         array
+     6. When the leftmost index is greater than the rightmost index, stop searching the         array
