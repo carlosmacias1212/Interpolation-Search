@@ -3,6 +3,7 @@ A key must be searched for, using the interpolation search algorithm, in a rando
 
 # Logical Steps
    Given an ordered array of size n, and a key value to search for:
+   
      1. Store the leftmost and rightmost index of the array
      
      2. Calculate the expected index of the key value, assuming the array values                increase linearly
